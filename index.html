@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   
   <title>Frontend Mentor | Room homepage</title>
+
+  <!-- link icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <!-- link del iconscout -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -19,13 +20,17 @@
 
   <!-- navbars page -->
   <nav class="navbars">
+    
+    <button class="uil uil-bars btnOpen"></button>
+
     <h1>Room</h1>
 
     <ul class="contanier_links">
-      <li class="link"><a href="/index.html">HOME</a></li>
-      <li class="link"><a href="/index.html">SHOP</a></li>
-      <li class="link"><a href="/index.html">ABOUT</a></li>
-      <li class="link"><a href="/index.html">CONTACT</a></li>
+      <li class="link"><button class="uil uil-multiply btnClose"></button></li>
+      <li class="link"><a href="#">HOME</a></li>
+      <li class="link"><a href="#">SHOP</a></li>
+      <li class="link"><a href="#">ABOUT</a></li>
+      <li class="link"><a href="#">CONTACT</a></li>
 
     </ul>
 
@@ -71,7 +76,7 @@
 
         </span>
 
-        <div class="arrows">
+        <div class="arrows arrowAdj">
            <a href="#" class="prev uil uil-angle-left" onclick="plusSlides(-1)"></a>
            <a href="#" class="next uil uil-angle-right" onclick="plusSlides(1)"></a>
         </div>
@@ -114,7 +119,7 @@
       <div class="content_article">
         <h3>ABOUT OUR FURNITURE</h3>
 
-        <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interest and what inpires you. Find the furniture pieces you need, from traditional to comtemporary styles or anything in between. Produc specialist are available to help you create your dream space</p>
+        <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interest and what inpires you. Find the furniture pieces you need, from traditional to comtemporary styles or anything in between. Produc specialist are available to help you create your dream space.</p>
 
       </div>
       
@@ -127,10 +132,10 @@
   </section>
   
   
-  <!-- <div class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    Coded by <a href="#">Nolberto Mesino</a>.
+  </div>
 
 
   <script src="public/js/index.js"></script>

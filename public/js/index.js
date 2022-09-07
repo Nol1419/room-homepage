@@ -1,3 +1,22 @@
+/*MENU*/ 
+
+/* width: 100%;
+top: 75px;
+font-size: 1rem;
+margin: -75px 0 0 0;
+*/
+
+// contanier_links
+
+const btnOpen = document.getElementsByClassName('btnOpen');
+
+//top: 0;
+const btnClose  =  document.getElementsByClassName('btnClose')
+
+
+
+/*CARRUSEL*/
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
