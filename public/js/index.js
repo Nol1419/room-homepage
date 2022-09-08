@@ -1,22 +1,20 @@
-/*MENU*/ 
+/*Menu */
 
-/* width: 100%;
-top: 75px;
-font-size: 1rem;
-margin: -75px 0 0 0;
-*/
+let btnOpen = document.querySelector('.btnOpen');
+let contanier_links = document.querySelector('.contanier_links');
+let btnClose  =  document.querySelector('.btnClose')
 
-// contanier_links
+btnOpen.addEventListener('click', () => {
+  contanier_links.style.top = '75px';
+  contanier_links.style.left = '-1px';
+})
 
-const btnOpen = document.getElementsByClassName('btnOpen');
-
-//top: 0;
-const btnClose  =  document.getElementsByClassName('btnClose')
-
+btnClose.addEventListener('click', () => {
+  contanier_links.style.top = '-75px';
+})
 
 
 /*CARRUSEL*/
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
